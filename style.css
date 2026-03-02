@@ -205,20 +205,20 @@
 .files{
   background-color: white;
   font-weight: 700;
-  padding: 10px 20px 10px 200px;
+  padding: 10px 20px 10px 0px;
   width: 100%;
-  margin-left: -20px;
+  margin-left: -5px;
   font-size: 26px;
 }
 .label{
  position: absolute;
   background-color: #5cc9ff;
-  padding: 10px 35px 10px 95px;
+  padding: 0px 35px 0px 110px;
   border-radius: 5px;
-  left: 100px;
+  left: 20px;
   text-align: left;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  top: 50px;
+  top: 55px;
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.55);
 }
@@ -229,8 +229,8 @@
   width: 96px;
   height: 96px;
   position: absolute;
-  left: 96px;
-  top: 0px;
+  left: 30px;
+  top: 5px;
 }
 
 
