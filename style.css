@@ -98,7 +98,7 @@
     border-radius: 2.3rem;
     backdrop-filter: blur(18px) saturate(185%) brightness(1.12);
     border: 1.5px solid rgba(135, 166, 255, 0.18);
-
+    width: 100%;
     min-width: 0;
     transition: box-shadow 0.3s, background 0.3s;
     position: relative;
