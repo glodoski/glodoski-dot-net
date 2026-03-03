@@ -226,6 +226,8 @@
 .files:after{
  content: '';
   background-image: url(./Files/clip.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 96px;
   height: 96px;
   position: absolute;
