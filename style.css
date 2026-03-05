@@ -152,7 +152,7 @@
   .contents {
     overflow-x: hidden;
     overflow-y: auto;
-    padding: 0 2.2rem 2.2rem 2.2rem;
+    padding: 2.2rem;
   }
 
   .file {
@@ -169,7 +169,7 @@
     text-shadow: 0 2px 26px #b1b8db44;
     background-color: white;
     margin: -2.7rem -2.2rem 0 -2.2rem;
-    padding: 5.7rem 4.4rem 1rem 4.4rem;
+    padding: 6rem 4.4rem 1rem 4.4rem;
     line-height: 2rem;
   }
 
@@ -179,8 +179,19 @@
   .subtitle {
     text-align: center;
     font-size: 1.5rem;
+    margin-top: -2.2rem;
     margin-bottom: 1.2rem;
     font-weight: 500;
+  }
+
+  .text-greeting {
+    font-family: 'Borel', cursive;
+    font-size: 55px;
+  }
+
+  .text-name {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
   }
 
   .gridbox {
@@ -243,6 +254,73 @@
 
   a, a p { color: var(--link-blue); text-decoration: none; }
   a p:hover { text-decoration: underline; }
+
+  /* Sub-page Utilities */
+  .header--left {
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .header--profile {
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .header--contact {
+    justify-content: space-between;
+  }
+
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-name {
+    font-weight: 500;
+    line-height: 2rem;
+    font-size: 1.15rem;
+  }
+
+  .profile-location {
+    font-weight: 300;
+    font-size: 1.25rem;
+  }
+
+  .gridbox img {
+    margin-bottom: -15px;
+  }
+
+  .gridbox.contact-grid div {
+    flex-basis: calc(100% / 3);
+  }
+
+  .stamp-img {
+    position: absolute;
+    height: 96px;
+    margin-left: 150px;
+    margin-top: -10px;
+    transform: rotate(2deg);
+    pointer-events: none;
+  }
+
+  .stamp-svg {
+    width: 100%;
+    max-width: 300px;
+    filter: blur(0.7px) url(#svgThreshold) opacity(50%);
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
 
   @media (max-width: 800px) and (min-height: 480px) {
     body {

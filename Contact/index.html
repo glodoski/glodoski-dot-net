@@ -5,58 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#000000">
   <title>Glodoski.net</title>
-  <style>
-    
-    @import url('../style.css');
-    body {
-        background-color: #000000;
-    }
-</style>
+  <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
   <div class="container">
     <nav class="toolbar" aria-label="Toolbar">
       <a href=".." class="toolbar-button" title="Home" aria-label="Home">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#4c5569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <svg viewBox="0 0 24 24">
           <path d="M4 11V19a1 1 0 0 0 1 1h4v-5h6v5h4a1 1 0 0 0 1-1V11l-8-7-8 7z"/>
         </svg>
       </a>
-      <a href= "../About" class="toolbar-button" title="Profile" aria-label="Profile">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#4c5569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <a href="../About" class="toolbar-button" title="Profile" aria-label="Profile">
+        <svg viewBox="0 0 24 24">
           <circle cx="12" cy="8" r="4"/>
           <path d="M4 20c0-4 4-6 8-6s8 2 8 6"/>
         </svg>
       </a>
-      <a href= "#" class="toolbar-button" title="Contact" aria-label="Contact">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#4c5569" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <a href="#" class="toolbar-button" title="Contact" aria-label="Contact">
+        <svg viewBox="0 0 24 24">
             <path d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"/>
-          
         </svg>
       </a>
-      <a href= "../Files" class="toolbar-button" title="Files" aria-label="Files">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#4c5569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <a href="../Files" class="toolbar-button" title="Files" aria-label="Files">
+        <svg viewBox="0 0 24 24">
           <rect x="6" y="4" width="12" height="16" rx="2" />
           <polyline points="14 4 14 8 18 8" />
           <line x1="9" y1="12" x2="15" y2="12" />
           <line x1="9" y1="15" x2="15" y2="15" />
-          
         </svg>
       </a>
     </nav>
     <main class="liquid-glass">
-        
-        
-        
       <div class="content">
-          <div class="header" style="text-align:left;">
+          <div class="header header--left header--contact">
               <div class="header-left">
                   James Glodoski
-              <br><span style="font-weight:400;font-size:18px;">(512) 210-7113</span><br>&nbsp;
+                  <br><span style="font-weight:400;font-size:18px;">(512) 210-7113</span><br>&nbsp;
               </div>
               <div class="header-right">
-              <img src="stamp.png" style="position: absolute;height: 96px;margin-left: 150px;margin-top: -10px;transform: rotate(2deg);">
-                <svg xmlns="http://www.w3.org/2000/svg" style="position: fixed;">
+                <img src="stamp.png" class="stamp-img" alt="Stamp">
+                <svg xmlns="http://www.w3.org/2000/svg" class="visually-hidden">
       <filter id="svgThreshold">
         <feComponentTransfer>
           <feFuncG class="transfer-func" type="discrete" tableValues="0 1 1"></feFuncG>
@@ -66,26 +55,9 @@
         </feComponentTransfer>
       </filter>
     </svg>
-                <svg
-                              
-                              style="width:100%;max-width:300px;filter:blur(0.7px) url(#svgThreshold) opacity(50%);"
-                               
-                               
-                               viewBox="0 0 132.61295 40"
-                               version="1.1"
-                               id="svg1"
-                               
-                               xmlns:xlink="http://www.w3.org/1999/xlink"
-                               xmlns="http://www.w3.org/2000/svg"
-                               xmlns:svg="http://www.w3.org/2000/svg">
-                              
-                              <defs
-                                 id="defs1" />
-                              <g
-                                 inkscape:label="Layer 1"
-                                 inkscape:groupmode="layer"
-                                 id="layer1"
-                                 transform="translate(-37.417732,-77.645795)">
+                <svg class="stamp-svg" viewBox="0 0 132.61295 40" version="1.1" id="svg1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                  <defs id="defs1" />
+                  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-37.417732,-77.645795)">
                                 <rect
                                    style="fill:#000000;stroke-width:0.264583"
                                    id="rect1"
@@ -184,27 +156,20 @@
                                    d="m 51.000001,92.999995 6.499997,5.000002 6.500003,-5.000002"
                                    id="path5" />
                               </g>
-                            </svg></div>
-              
-              
+                </svg>
+              </div>
           </div>
         
-        <div class="contents" style="clear:both;">
-        <div class="subtitle"></div>
-        <div class="gridbox">
-            <div style="flex-basis: calc(100% / 3);"><a href="mailto:james@glodoski.net"><img src="email.png" height="65px" alt="Email" style="margin-bottom: -15px;"><p>Email</p></a></div>
-            <div style="flex-basis: calc(100% / 3);"><a href="sms:+15122107113"><img src="chat.png" height="65px" alt="iMessage" style="margin-bottom: -15px;"><p>iMessage</p></a></div>
-            <div style="flex-basis: calc(100% / 3);"><a href="https://linkedin.com/in/glodoski"><img src="linkedin.png" height="65px" alt="LinkedIn" style="margin-bottom: -15px;"><p>LinkedIn</p></a></div>
-            <div style="flex-basis: calc(100% / 3);"><a href="https://calendly.com/glodoski/meet"><img src="calendar.png" height="65px" alt="Schedule" style="margin-bottom: -15px;"><p>Schedule</p></a></div>
-            
-            
-            </div>
-        
-        
+        <div class="contents">
+        <div class="gridbox contact-grid">
+            <div><a href="mailto:james@glodoski.net"><img src="email.png" height="65px" alt="Email"><p>Email</p></a></div>
+            <div><a href="sms:+15122107113"><img src="chat.png" height="65px" alt="iMessage"><p>iMessage</p></a></div>
+            <div><a href="https://linkedin.com/in/glodoski"><img src="linkedin.png" height="65px" alt="LinkedIn"><p>LinkedIn</p></a></div>
+            <div><a href="https://calendly.com/glodoski/meet"><img src="calendar.png" height="65px" alt="Schedule"><p>Schedule</p></a></div>
+        </div>
      </div>
       </div>
     </main>
   </div>
 </body>
 </html>
-
